@@ -12,7 +12,14 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
+p{
+  margin-bottom: 0;
+}
+.container{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -64,6 +71,13 @@ textarea{
   background-color: #06AED5;
   color: white;
 }
+.save-img{
+  margin-top: 30%;
+    margin-bottom: 30%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
 
 .saveBtn i:hover {
   font-size: 20px;
